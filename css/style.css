@@ -1,1 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+article {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    article {
+        display: inline-block;
+        width: 30%;
+        margin-right: 3%;
+        vertical-align: top;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    margin-top: 24px;
+    padding: 20px;
+}
